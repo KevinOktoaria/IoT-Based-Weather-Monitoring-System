@@ -5,17 +5,15 @@
 #include <PubSubClient.h>
 
 // WiFi
-const char *ssid = "Hiro"; // Enter your WiFi name
-const char *password = "15102002";  // Enter WiFi password
+const char *ssid = " "; // Enter your WiFi name
+const char *password = " ";  // Enter WiFi password
 
-// const char *ssid = "Don't use my hotspot"; // Enter your WiFi name
-// const char *password = "KevinOkto15";  // Enter WiFi password
 
 // MQTT Broker
-const char *mqtt_broker = "broker.emqx.io";// broker address 
-const char *mqtt_username = "emqx"; // username for authentication
-const char *mqtt_password = "public";// password for authentication
-const int mqtt_port = 1883;// port of MQTT over TCP
+const char *mqtt_broker = " ";// broker address 
+const char *mqtt_username = " "; // username for authentication
+const char *mqtt_password = " ";// password for authentication
+const int mqtt_port =  ;// port of MQTT over TCP
 
 WiFiClient espClient;
 PubSubClient client(espClient);
